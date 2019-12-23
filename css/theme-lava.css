@@ -24,6 +24,9 @@
 /*!
 // 1. Useful Mixins
 // --------------------------------------------------*/
+.post {
+  height: 550px !important;
+}
 .vertical-align {
   position: relative;
   top: 50%;
@@ -1881,7 +1884,7 @@ p.question {
 // Visitor Info
 // --------------------------------------------------*/
 .info-box {
-  margin-bottom: 36px;
+  margin-bottom: 36px !important;
   position: relative;
   overflow: hidden;
 }
